@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filmora</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <h1>🎟️ TicketBook</h1>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div>
+            <h2>Book Your Tickets Easily</h2>
+            <p>Choose your favourite movie and book your tickets online.</p>
+            <a href="#booking" class="btn">Book Now</a>
+        </div>
+    </section>
+
+    <!-- Movies Section -->
+    <section id="movies">
+        <h2>Available Movies</h2>
+
+        <div class="movie-container">
+
+            <div class="movie-card">
+                <div class="movie-image">🎬</div>
+                <h3>amaran</h3>
+                <p>Action | Drama</p>
+                <button>Book Ticket</button>
+            </div>
+
+            <div class="movie-card">
+                <div class="movie-image">🍿</div>
+                <h3>stranger things</h3>
+                <p>Comedy | Family</p>
+                <button>Book Ticket</button>
+            </div>
+
+            <div class="movie-card">
+                <div class="movie-image">🎥</div>
+                <h3>spider man</h3>
+                <p>Thriller | Action</p>
+                <button>Book Ticket</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking">
+        <h2>Book Your Ticket</h2>
+
+        <form>
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Select Movie</label>
+            <select required>
+                <option value="">-- Select Movie --</option>
+                <option>amaran</option>
+                <option>stranger things</option>
+                <option>spider man</option>
+            </select>
+
+            <label>Select Date</label>
+            <input type="date" required>
+
+            <label>Number of Tickets</label>
+            <input type="number" min="1" max="10" placeholder="Enter number of tickets" required>
+
+            <label>Seat Type</label>
+            <select>
+                <option>Regular</option>
+                <option>Premium</option>
+                <option>VIP</option>
+            </select>
+
+            <button type="submit">Confirm Booking</button>
+        </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: ticketbook@example.com</p>
+        <p>Phone: +91 98765 43210</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 TicketBook. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
